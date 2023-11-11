@@ -1,9 +1,18 @@
 import streamlit as st
+import pandas as pd
 
 st.set_page_config(page_icon = "Flag_of_Palestine_Flat_Round.png" ,page_title = "Palestine starterkit")
 
-st.title("Wat jij kan doen voor Palestina")
-st.divider()
+st.title("Palestina protesten en informatie")
+
+data_df = pd.DataFrame(
+    {   
+        "Datum": [datetime(2024,11,12,19,0), datetime(2024,11,16,19,30), datetime(2024,11,18,13,0), datetime(2024,11,18,13,0), datetime(2024,11,19,14,0)],
+        "Locatie": ["Amsterdam, centraal station", "Leeuwarden, stationsplein", "Amsterdam, Dam", "Leeuwarden, stationsplein", "Rotterdam, binnenrotte"]
+    }
+)
+
+
 
 st.subheader("Zelf actie voeren", divider='red')
 
