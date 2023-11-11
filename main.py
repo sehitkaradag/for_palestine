@@ -7,14 +7,22 @@ st.set_page_config(page_icon = "Flag_of_Palestine_Flat_Round.png" ,page_title = 
 with st.sidebar:
     st.link_button(":red[Nieuwe demonstratie melden]", "https://forms.gle/QgroohXDBk1ntpjB8")
     st.link_button(":green[Feedback of vragen]","https://forms.gle/UPAEQsUGxJ4SdTK57")
-    
+
 
 st.title("Palestina protesten en informatie")
 
 data_df = pd.DataFrame(
     {   
-        "Datum": [datetime(2023,11,12,19,0), datetime(2023,11,16,19,30), datetime(2023,11,18,13,0), datetime(2023,11,18,13,0), datetime(2023,11,19,14,0)],
-        "Locatie": ["Amsterdam, Centraal station", "Leeuwarden, Stationsplein", "Amsterdam, Dam", "Leeuwarden, Stationsplein", "Rotterdam, Binnenrotte"]
+        "Datum": [datetime(2023,11,12,19,0), 
+        datetime(2023,11,16,19,30), 
+        datetime(2023,11,18,13,0), 
+        datetime(2023,11,18,13,0), 
+        datetime(2023,11,19,14,0)],
+        "Locatie": ["Amsterdam, Centraal station",
+         "Leeuwarden, Stationsplein", 
+         "Amsterdam, Dam", 
+         "Leeuwarden, Stationsplein", 
+         "Rotterdam, Binnenrotte"]
     }
 )
 st.data_editor(
