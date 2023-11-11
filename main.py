@@ -69,7 +69,7 @@ with tab3:
     
 
 with tab4:
-    st.write("text")
+    st.subheader("Schrijf politici", divider='red')
 
 with tab5:
     st.write("text")
