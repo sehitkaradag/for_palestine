@@ -8,9 +8,22 @@ st.title("Palestina protesten en informatie")
 
 data_df = pd.DataFrame(
     {   
-        "Datum": [datetime(2024,11,12,19,0), datetime(2024,11,16,19,30), datetime(2024,11,18,13,0), datetime(2024,11,18,13,0), datetime(2024,11,19,14,0)],
+        "Datum": [datetime(2023,11,12,19,0), datetime(2023,11,16,19,30), datetime(2023,11,18,13,0), datetime(2023,11,18,13,0), datetime(2023,11,19,14,0)],
         "Locatie": ["Amsterdam, centraal station", "Leeuwarden, stationsplein", "Amsterdam, Dam", "Leeuwarden, stationsplein", "Rotterdam, binnenrotte"]
     }
+)
+st.data_editor(
+    data_df,
+    column_config={
+        "Datum": st.column_config.DatetimeColumn(
+            "Datum",
+            min_value = datetime(2023,11,11),
+            max_value = dateime(2024,12,30),
+            format = "D MMM YYYY, h:mm a",
+            step=60,
+        ),
+    },
+    hide_index=True,
 )
 st.dataframe(data_df)
 
