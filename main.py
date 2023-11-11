@@ -72,8 +72,17 @@ with tab4:
     st.subheader("Schrijf politici", divider='red')
     st.write("Schrijf aan politici en eis verandering van Nederland in onze houding ten opzichte van Israël en Palestina. Plant een Olijfboom heeft een voorbeeldbrief en de e-mail adressen van Tweede Kamerleden:")
     st.link_button(":red[Brief template]","https://www.planteenolijfboom.nl/brief-politiek")
-with tab5:
-    st.write("text")
 
+with tab5:
+    st.subheader("Spullen", divider='red')
+    st.write("Met spullen kun je natuurlijk ook uitdragen dat je Palestina steunt.")
+    st.link_button(":red[handmadepalestine.com]","https://handmadepalestine.com/")
+    st.link_button(":red[fairtradepalestine.org]","https://www.fairtradepalestine.org/")
+    st.link_button(":red[madeinpalestine.de]", "https://www.madeinpalestine.de/")
+    st.link_button(":green[Shirt]", "https://derodelap.nl/product/free-palestine-shirt-pre-order/")
+    st.link_button(":green[Button]", "https://derodelap.nl/product/palestijnse-vlag-pin/")
+    st.link_button(":green[Stickers]", "https://leftlaser.com/collections/propaganda-1/products/free-palestine-sticker")
+    st.link_button(":green[Autostickers]","https://www.vlaggenclub.nl/auto-sticker-palestijnse-vlag")
+    
 with tab6:
     st.write("text")
