@@ -27,7 +27,7 @@ st.data_editor(
 )
 st.caption("Nieuwe demonstraties worden dagelijks toegevoegd")
 
-tab1, tab2, tab3 = st.tabs(["Zelf actie voeren","Boycott","Petities","Schrijf politici","Spullen","Posters"])
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["Zelf actie voeren","Boycott","Petities","Schrijf politici","Spullen","Posters"])
 
 with tab1:
     st.subheader("Zelf actie voeren", divider='red')
@@ -38,3 +38,15 @@ with tab2:
     st.subheader("Boycott", divider='red')
     st.write("Hoe meer demonstraties & acties, hoe beter! Het is super belangrijk dat we op zoveel mogelijk plekken van ons laten horen. Een actie of demonstratie kan zo groot of klein zijn als je zelf wilt - je kunt zonder voorbereiding in je eentje op een drukke plek gaan staan met een pakkend bord of leuzen op de stoep krijten. Maar je kan ook een demonstratie met duizenden mensen organiseren, en van alles daar tussenin.")
     st.link_button(":red[Demonstratie starterkit]","https://drive.google.com/file/d/10XuVK22QailEljV--nZ7Ca-1Xc1tXvSx/view?usp=sharing")
+
+with tab3:
+    st.write("text")
+
+with tab4:
+    st.write("text")
+
+with tab5:
+    st.write("text")
+
+with tab6:
+    st.write("text")
