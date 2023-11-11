@@ -83,6 +83,10 @@ with tab5:
     st.link_button(":green[Button]", "https://derodelap.nl/product/palestijnse-vlag-pin/")
     st.link_button(":green[Stickers]", "https://leftlaser.com/collections/propaganda-1/products/free-palestine-sticker")
     st.link_button(":green[Autostickers]","https://www.vlaggenclub.nl/auto-sticker-palestijnse-vlag")
-    
+
 with tab6:
-    st.write("text")
+    st.subheader("Posters", divider='red')
+    st.write("Koop of print posters. Print ze uit en plak ze op je raam of neem ze mee naar een demonstratie! Je kan natuurlijk ook tientallen of honderden posters printen en deze op zogenaamde plakzuilen plakken. Bijvoorbeeld op plakzuilen, waar iedereen wild mag plakken.")
+    st.link_button(":red[Palestina posters]","https://drive.google.com/drive/folders/1Qsv4WQiUbNnCZuEP6wwUIrOsLm1NqW5W")
+    st.link_button(":red[Tips over posters plakken]", "https://www.greenpeace.org/nl/stoomcursus-stickers-posters-plakken/")
+    
