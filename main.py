@@ -36,9 +36,17 @@ with tab1:
 with tab2:
     st.subheader("Boycott", divider='red')
     st.write("Koop geen spullen uit Israël, of van bedrijven die de Israëlische bezetting steunen. Een paar tips:")
+    
     tab2_col1, tab2_col2 = st.columns(2)
     tab2_col1.write("Check in de supermarkt waar producten vandaan komen! Koop geen spullen uit Israël. Eventueel kun je stickers op de producten plakken om ook andere mensen te waarschuwen.")
     tab2_col1.link_button(":red[Bestel je stickers hier]","https://shop.palestinecampaign.org/products/500-boycott-israeli-apartheid-stickers")
+
+    tab_col2.write("Boycot merken die het Israelische regime actief steunen. De organisatie BDS adviseert om met zo veel mogelijk mensen een klein aantal bedrijven te boycotten. Je kan deze bedrijven natuurlijk ook een bericht sturen of een actie organiseren om extra druk uit te oefenen.")
+    tab2_col2.link_button(":red[Volg BDS (Boycot, Divest, Sanction)]", "https://bdsmovement.net/get-involved/join-a-bds-campaign")
+    tab2_col2.link_button(":red[Palestina Komitee]", "https://palestina-komitee.nl/")
+    tab_2_col2.link_button(":red[BDS Nederland]","https://bdsnederland.nl/")
+    tab_2_col2.link_button(":red[Waarom is een Boycott nodig?]", "http://www.inminds.com/boycott-israel-2012.php")
+
 
 with tab3:
     st.write("text")
