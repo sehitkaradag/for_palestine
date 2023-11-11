@@ -71,7 +71,7 @@ with tab3:
 with tab4:
     st.subheader("Schrijf politici", divider='red')
     st.write("Schrijf aan politici en eis verandering van Nederland in onze houding ten opzichte van Israël en Palestina. Plant een Olijfboom heeft een voorbeeldbrief en de e-mail adressen van Tweede Kamerleden:")
-    st.link_button("red[Brief template]","https://www.planteenolijfboom.nl/brief-politiek")
+    st.link_button(":red[Brief template]","https://www.planteenolijfboom.nl/brief-politiek")
 with tab5:
     st.write("text")
 
