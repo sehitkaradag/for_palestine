@@ -94,6 +94,7 @@ with tab5:
     st.link_button(":red[madeinpalestine.de]", "https://www.madeinpalestine.de/")
     st.link_button(":green[Shirt]", "https://derodelap.nl/product/free-palestine-shirt-pre-order/")
     st.link_button(":green[Button]", "https://derodelap.nl/product/palestijnse-vlag-pin/")
+    st.link_button(":green[Kufiya]","https://www.kufiya.org/")
     st.link_button(":green[Stickers]", "https://leftlaser.com/collections/propaganda-1/products/free-palestine-sticker")
     st.link_button(":green[Autostickers]","https://www.vlaggenclub.nl/auto-sticker-palestijnse-vlag")
 
