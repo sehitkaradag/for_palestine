@@ -44,8 +44,8 @@ with tab2:
     tab_col2.write("Boycot merken die het Israelische regime actief steunen. De organisatie BDS adviseert om met zo veel mogelijk mensen een klein aantal bedrijven te boycotten. Je kan deze bedrijven natuurlijk ook een bericht sturen of een actie organiseren om extra druk uit te oefenen.")
     tab2_col2.link_button(":red[Volg BDS (Boycot, Divest, Sanction)]", "https://bdsmovement.net/get-involved/join-a-bds-campaign")
     tab2_col2.link_button(":red[Palestina Komitee]", "https://palestina-komitee.nl/")
-    tab_2_col2.link_button(":red[BDS Nederland]","https://bdsnederland.nl/")
-    tab_2_col2.link_button(":red[Waarom is een Boycott nodig?]", "http://www.inminds.com/boycott-israel-2012.php")
+    tab2_col2.link_button(":red[BDS Nederland]","https://bdsnederland.nl/")
+    tab2_col2.link_button(":red[Waarom is een Boycott nodig?]", "http://www.inminds.com/boycott-israel-2012.php")
 
 
 with tab3:
