@@ -4,6 +4,11 @@ from datetime import datetime
 
 st.set_page_config(page_icon = "Flag_of_Palestine_Flat_Round.png" ,page_title = "Palestine starterkit")
 
+with st.sidebar:
+    st.link_button(":red[Nieuwe demonstratie melden]", "https://forms.gle/QgroohXDBk1ntpjB8")
+    st.link_button(":green[Feedback of vragen]","https://forms.gle/UPAEQsUGxJ4SdTK57")
+    
+
 st.title("Palestina protesten en informatie")
 
 data_df = pd.DataFrame(
