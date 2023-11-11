@@ -52,7 +52,21 @@ with tab3:
     st.subheader("Petities", divider='red')
     st.write("Het is belangrijk om ook schriftelijk je stem te laten horen. Teken daarom de volgende petities:")
     tab3_col1, tab3_col2 = st.columns(2)
-    tab3_col1.link_button(":red[Ceasefire Now]","https://www.change.org/p/sign-and-share-this-urgent-petition-calling-for-a-ceasefirenow-in-gaza-and-israel?utm_content=cl_sharecopy_37700646_en-GB%3A4&recruited_by_id=3af7eb40-728f-11ee-9fc7-bdef27e43073&utm_source=share_petition&utm_medium=copylink&utm_campaign=psf_combo_share_initial")
+
+    tab3_col1.link_button(":green[Zorgmedewerkers]","https://docs.google.com/forms/d/e/1FAIpQLSeHKSl6nKWhZjyBQBSBY0fHyd1JJ6HO5GPk-b4HteZmfTlbuA/viewform")
+    tab3_col1.link_button(":green[Nederlanders]","https://artikel90nu.petities.nl/")
+    tab3_col1.link_button(":green[Voor ambtenaren]","https://docs.google.com/forms/d/e/1FAIpQLScdDs12Fo6C2SyzoPkWDQk-IlZEo6_NQb8_WEkGxkWqQBzK3A/viewform")
+    tab3_col1.link_button(":green[Academici en studenten in NL]","https://docs.google.com/forms/d/e/1FAIpQLSc5iBdA7MXwj8Fv5YVSCSTO-9aMxgq2CVHINnDJYfkh7TeNoA/viewform")
+
+
+    tab3_col2.link_button(":red[Ceasefire Now]","https://www.change.org/p/sign-and-share-this-urgent-petition-calling-for-a-ceasefirenow-in-gaza-and-israel?utm_content=cl_sharecopy_37700646_en-GB%3A4&recruited_by_id=3af7eb40-728f-11ee-9fc7-bdef27e43073&utm_source=share_petition&utm_medium=copylink&utm_campaign=psf_combo_share_initial")
+    tab3_col2.link_button(":red[Stop the bloodshed of Children in Gaza]","https://secure.avaaz.org/campaign/nl/israel_palestine_save_the_kids_loc/")
+    tab3_col2.link_button(":red[Ceasefire, Stop the war]","https://secure.avaaz.org/campaign/en/call_for_sanity_3_1/")
+    tab3_col2.link_button(":red[Stop the genocide and recognize the human rights of the Palestinians]", "https://petities.nl/petitions/stop-de-genocide-en-erken-de-mensenrechten-van-de-palestijnen?locale=nl")
+    tab3_col2.link_button(":red[Take a stand against the violatuons of human rights in Gaza]","https://petities.nl/petitions/neem-stelling-tegen-de-schending-van-de-mensenrechten-in-gaza/signatures/28425707?locale=nl")
+    tab3_col2.link_button(":red[The Rights Forum: The Hague is working on peace]","https://rightsforum.org/petitie/den-haag-maak-nu-werk-vrede-israel-palestina/")
+    tab3_col2.link_button(":red[Pax - Don't give Israel a carte blanche]","https://paxvoorvrede.nl/acties/geen-carte-blanche/")
+    
 
 with tab4:
     st.write("text")
