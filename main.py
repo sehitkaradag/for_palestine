@@ -13,7 +13,7 @@ data_df = pd.DataFrame(
     }
 )
 st.data_editor(
-    data_df,
+    data_df,use_container_width=True,
     column_config={
         "Datum": st.column_config.DatetimeColumn(
             "Datum",
