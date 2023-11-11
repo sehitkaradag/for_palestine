@@ -25,7 +25,7 @@ st.data_editor(
     },
     hide_index=True,
 )
-st.caption("Graag nieuwe demonstraties toevoegen in de groep")
+st.caption("Nieuwe demonstraties worden dagelijks toegevoegd")
 
 st.subheader("Zelf actie voeren", divider='red')
 
