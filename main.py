@@ -25,8 +25,7 @@ st.data_editor(
     },
     hide_index=True,
 )
-st.dataframe(data_df)
-
+st.caption("Graag nieuwe demonstraties toevoegen in de groep")
 
 st.subheader("Zelf actie voeren", divider='red')
 
