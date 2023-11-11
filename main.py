@@ -49,7 +49,10 @@ with tab2:
 
 
 with tab3:
-    st.write("text")
+    st.subheader("Petities", divider='red')
+    st.write("Het is belangrijk om ook schriftelijk je stem te laten horen. Teken daarom de volgende petities:")
+    tab3_col1, tab3_col2 = st.columns(2)
+    tab3_col1.link_button(":red[Ceasefire Now]","https://www.change.org/p/sign-and-share-this-urgent-petition-calling-for-a-ceasefirenow-in-gaza-and-israel?utm_content=cl_sharecopy_37700646_en-GB%3A4&recruited_by_id=3af7eb40-728f-11ee-9fc7-bdef27e43073&utm_source=share_petition&utm_medium=copylink&utm_campaign=psf_combo_share_initial")
 
 with tab4:
     st.write("text")
