@@ -12,7 +12,7 @@ data_df = pd.DataFrame(
         "Locatie": ["Amsterdam, centraal station", "Leeuwarden, stationsplein", "Amsterdam, Dam", "Leeuwarden, stationsplein", "Rotterdam, binnenrotte"]
     }
 )
-
+st.dataframe(data_df)
 
 
 st.subheader("Zelf actie voeren", divider='red')
