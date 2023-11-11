@@ -18,7 +18,7 @@ st.data_editor(
         "Datum": st.column_config.DatetimeColumn(
             "Datum",
             min_value = datetime(2023,11,11),
-            max_value = dateime(2024,12,30),
+            max_value = datetime(2024,12,30),
             format = "D MMM YYYY, h:mm a",
             step=60,
         ),
