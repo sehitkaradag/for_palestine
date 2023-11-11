@@ -9,7 +9,7 @@ st.title("Palestina protesten en informatie")
 data_df = pd.DataFrame(
     {   
         "Datum": [datetime(2023,11,12,19,0), datetime(2023,11,16,19,30), datetime(2023,11,18,13,0), datetime(2023,11,18,13,0), datetime(2023,11,19,14,0)],
-        "Locatie": ["Amsterdam, centraal station", "Leeuwarden, stationsplein", "Amsterdam, Dam", "Leeuwarden, stationsplein", "Rotterdam, binnenrotte"]
+        "Locatie": ["Amsterdam, Centraal station", "Leeuwarden, Stationsplein", "Amsterdam, Dam", "Leeuwarden, Stationsplein", "Rotterdam, Binnenrotte"]
     }
 )
 st.data_editor(
@@ -89,4 +89,4 @@ with tab6:
     st.write("Koop of print posters. Print ze uit en plak ze op je raam of neem ze mee naar een demonstratie! Je kan natuurlijk ook tientallen of honderden posters printen en deze op zogenaamde plakzuilen plakken. Bijvoorbeeld op plakzuilen, waar iedereen wild mag plakken.")
     st.link_button(":red[Palestina posters]","https://drive.google.com/drive/folders/1Qsv4WQiUbNnCZuEP6wwUIrOsLm1NqW5W")
     st.link_button(":red[Tips over posters plakken]", "https://www.greenpeace.org/nl/stoomcursus-stickers-posters-plakken/")
-    
+
