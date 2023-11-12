@@ -106,90 +106,81 @@ with tab6:
     st.link_button(":red[Tips over posters plakken]", "https://www.greenpeace.org/nl/stoomcursus-stickers-posters-plakken/")
 
     st.markdown(
-        """
-    <style>
-    body {
-        margin-top: 35px;
-    }
-    .support-palestine,
-    .support-palestine:visited {
-        position: absolute;
-        left: 0;
-        top: 0;
-        right: 0;
-        background: rgb(0, 0, 0);
-        display: flex;
-        justify-content: center;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        z-index: 10000;
-        text-decoration: none;
-        font-family: arial;
-    }
-    .support-palestine:hover,
-    .support-palestine:active {
-        background: black;
-        display: flex;
-        background: rgb(80, 80, 80);
-        text-decoration: none;
-    }
-    .support-palestine__flag {
-        margin-right: 10px;
-    }
+    """
+<style>
+body {
+	margin-top: 35px;
+}
+.support-palestine, .support-palestine:visited {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	background: rgb(0,0,0);
+	display: flex;
+	justify-content: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	z-index: 10000;
+	text-decoration: none;
+	font-family: arial;
+}
+.support-palestine:hover, .support-palestine:active {
+	background: black;
+	display: flex;
+	background: rgb(25, 25, 25);
+	text-decoration: none;
+}
+.support-palestine__flag {
 
-    .support-palestine__label {
-        color: white;
-        font-size: 12px;
-        line-height: 24px;
-    }
-    .background {
-        background: darkgreen;
+	margin-right: 10px;
+}
 
-        height: 21px;
-    }
-    .top {
-        background: black;
-        width: 40px;
-        height: 8px;
-        z-index: 1;
-    }
-    .middle {
-        background: white;
-        width: 100%;
-        height: 8px;
-        z-index: 1;
-    }
-    .triangle {
-        background: auto;
-        border-top: 12px solid transparent;
-        border-bottom: 12px solid transparent;
-        border-left: 20px solid red;
-        z-index: 2;
-        position: relative;
-        top: -16px;
-        left: 0;
-    }
-    </style>
-    <a
-    class="support-palestine"
-    href="https://www.islamic-relief.org.uk/giving/appeals/palestine/"
-    target="_blank"
-    rel="nofollow noopener"
-    title="Donate to support palestine"
-    >
-    <div
-        class="support-palestine__flag"
-        role="img"
-        aria-label="Flag of palestine"
-    >
-        <div class="background">
-        <div class="top"></div>
-        <div class="middle"></div>
-        <div class="triangle"></div>
-        </div>
-    </div>
-    <div class="support-palestine__label">Donate to support Palestine</div>
-    </a>
-    """,
-        unsafe_allow_html=True,
+.support-palestine__label {
+	color: white;
+	font-size: 12px;
+	line-height: 24px;
+}
+.background {
+  background: darkgreen;
+
+height:21px;
+} 
+.top { 
+  background: black;
+  width:40px;
+  height: 8px;
+  z-index: 1;
+}
+.middle {
+  background: white;
+  width: 100%;
+  height: 8px;
+  z-index: 1;
+}
+.triangle {
+  background: auto;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-left: 20px solid red;
+  z-index: 2;
+  position: relative;
+  top: -16px;
+  left: 0;
+}
+</style>
+<a class="support-palestine" href="https://www.islamic-relief.org.uk/giving/appeals/palestine/" target="_blank" rel="nofollow noopener" title="Donate to support palestine">
+	<div class="support-palestine__flag" role="img" aria-label="Flag of palestine">
+	<div class="background">
+  <div class="top"></div>
+  <div class="middle"></div>
+  <div class="triangle"></div>
+</div>
+	</div>
+	<div class="support-palestine__label">
+		Donate to support Palestine
+	</div>
+</a>
+""",
+    unsafe_allow_html=True,
 )
