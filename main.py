@@ -199,3 +199,17 @@ height:21px;
 """,
     unsafe_allow_html=True,
 )
+
+st.markdown("""<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11409332455">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11409332455');
+</script>  
+""", 
+    unsafe_allow_html=True,
+)
