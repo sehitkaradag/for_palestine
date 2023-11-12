@@ -13,12 +13,12 @@ st.title("Palestina protesten en informatie")
 
 data_df = pd.DataFrame(
     {   
-        "Datum": [datetime(2023,11,12,19,0), 
+        "Datum": [datetime(2023,11,14,18,0), 
         datetime(2023,11,16,19,30), 
         datetime(2023,11,18,13,0), 
         datetime(2023,11,18,13,0), 
         datetime(2023,11,19,14,0)],
-        "Locatie": ["Amsterdam, Centraal station",
+        "Locatie": ["Amsterdam, Schiphol Plaza",
          "Leeuwarden, Stationsplein", 
          "Amsterdam, Dam", 
          "Leeuwarden, Stationsplein", 
