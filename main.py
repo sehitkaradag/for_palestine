@@ -105,7 +105,7 @@ with tab6:
     st.link_button(":red[Palestina posters]","https://drive.google.com/drive/folders/1Qsv4WQiUbNnCZuEP6wwUIrOsLm1NqW5W")
     st.link_button(":red[Tips over posters plakken]", "https://www.greenpeace.org/nl/stoomcursus-stickers-posters-plakken/")
 
-    st.markdown(
+st.markdown(
     """
 <style>
 body {
