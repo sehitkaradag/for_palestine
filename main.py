@@ -2,13 +2,19 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 
+######################################
+# Page configuration & Sidebar
+######################################
+
 st.set_page_config(page_icon = "Flag_of_Palestine_Flat_Round.png" ,page_title = "Palestine starterkit")
 
 with st.sidebar:
     st.link_button(":red[Nieuwe demonstratie melden]", "https://forms.gle/QgroohXDBk1ntpjB8")
     st.link_button(":green[Feedback of vragen]","https://forms.gle/UPAEQsUGxJ4SdTK57")
 
-
+######################################
+# Page title & Dataframe display
+######################################
 st.title("Palestina protesten en informatie")
 
 data_df = pd.DataFrame(
@@ -39,6 +45,11 @@ st.data_editor(
     hide_index=True,
 )
 st.caption("Nieuwe demonstraties worden dagelijks toegevoegd")
+
+######################################
+# Display of tabs. 6 tabs in total with some containing columns
+######################################
+
 
 tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["Zelf actie voeren","Boycott","Petities","Schrijf politici","Spullen","Posters"])
 
@@ -106,6 +117,9 @@ with tab6:
     st.link_button(":red[Palestina posters]","https://drive.google.com/drive/folders/1Qsv4WQiUbNnCZuEP6wwUIrOsLm1NqW5W")
     st.link_button(":red[Tips over posters plakken]", "https://www.greenpeace.org/nl/stoomcursus-stickers-posters-plakken/")
 
+######################################
+# CSS banner down the page for donations
+######################################
 st.markdown(
     """
 <style>
