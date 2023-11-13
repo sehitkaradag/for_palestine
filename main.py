@@ -15,7 +15,7 @@ with st.sidebar:
 ######################################
 # Page title & Dataframe display
 ######################################
-st.title("Palestina protesten en informatie")
+st.subheader("Palestina protesten en informatie")
 
 data_df = pd.DataFrame(
     {   
