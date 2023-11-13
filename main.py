@@ -28,7 +28,7 @@ data_df = pd.DataFrame(
         datetime(2023,11,18,13,0),
         datetime(2023,11,18,19,0), 
         datetime(2023,11,19,14,0)
-        datetime(2023,11,19,19,0)],
+        datetime(2023,11,19,19,0)]
         "Locatie": ["Amsterdam, Schiphol Plaza",
          "Amsterdam, Centraal Station",
          "Amsterdam, Centraal Station",
