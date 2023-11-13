@@ -129,11 +129,6 @@ with tab6:
     st.link_button(":red[Palestina posters]","https://drive.google.com/drive/folders/1Qsv4WQiUbNnCZuEP6wwUIrOsLm1NqW5W")
     st.link_button(":red[Tips over posters plakken]", "https://www.greenpeace.org/nl/stoomcursus-stickers-posters-plakken/")
 
-s = st.GlobalState(key-"user metadata")
-if not s:
-    s.counter = 0
-s.counter += 1
-st.markdown(f'Page viewed = {s.counter}')
 ######################################
 # CSS banner down the page for donations
 ######################################
