@@ -19,16 +19,26 @@ st.title("Palestina protesten en informatie")
 
 data_df = pd.DataFrame(
     {   
-        "Datum": [datetime(2023,11,14,18,0), 
-        datetime(2023,11,16,19,30), 
+        "Datum": [datetime(2023,11,14,18,0),
+        datetime(2023,11,14,19,0),
+        datetime(2023,11,15,19,0), 
+        datetime(2023,11,16,19,30),
+        datetime(2023,11,17,19,0), 
         datetime(2023,11,18,13,0), 
-        datetime(2023,11,18,13,0), 
-        datetime(2023,11,19,14,0)],
+        datetime(2023,11,18,13,0),
+        datetime(2023,11,18,19,0), 
+        datetime(2023,11,19,14,0)
+        datetime(2023,11,19,19,0)],
         "Locatie": ["Amsterdam, Schiphol Plaza",
-         "Leeuwarden, Stationsplein", 
+         "Amsterdam, Centraal Station",
+         "Amsterdam, Centraal Station",
+         "Leeuwarden, Stationsplein",
+         "Amsterdam, Centraal Station",
          "Amsterdam, Dam", 
-         "Leeuwarden, Stationsplein", 
-         "Rotterdam, Binnenrotte"]
+         "Leeuwarden, Stationsplein",
+         "Amsterdam, Centraal Station",
+         "Rotterdam, Binnenrotte",
+         "Amsterdam, Centraal Station"]
     }
 )
 st.data_editor(
