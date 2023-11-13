@@ -77,6 +77,7 @@ with tab2:
     tab2_col1.link_button(":red[Bestel je stickers hier]","https://shop.palestinecampaign.org/products/500-boycott-israeli-apartheid-stickers")
 
     tab2_col2.write("Boycot merken die het Israelische regime actief steunen. De organisatie BDS adviseert om met zo veel mogelijk mensen een klein aantal bedrijven te boycotten. Je kan deze bedrijven natuurlijk ook een bericht sturen of een actie organiseren om extra druk uit te oefenen.")
+    tab2_col2.link_button(":red[Complete overzicht merken]","https://boycott.thewitness.news/browse/1")
     tab2_col2.link_button(":red[Volg BDS (Boycot, Divest, Sanction)]", "https://bdsmovement.net/get-involved/join-a-bds-campaign")
     tab2_col2.link_button(":red[Palestina Komitee]", "https://palestina-komitee.nl/")
     tab2_col2.link_button(":red[BDS Nederland]","https://bdsnederland.nl/")
