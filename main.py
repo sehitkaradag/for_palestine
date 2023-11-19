@@ -16,7 +16,6 @@ with st.sidebar:
 ######################################
 # Page title & Dataframe display
 ######################################
-st.error("LANDELIJKE DEMONSTRATIE 19 NOVEMBER ROTTERDAM 14:00 BINNENROTTE", icon="🚨")
 st.subheader("Palestina protesten en informatie")
 
 data_df = pd.DataFrame(
