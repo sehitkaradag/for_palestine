@@ -35,8 +35,8 @@ data_df = pd.DataFrame(
          "Amsterdam, Centraal Station",
          "Hoogerheide, Elbit wapenfabrikant Kooiweg 40",
          "Tilburg, Centraal Station",
-         "Amsterdam, Dam",
          "Amsterdam, Centraal Station",
+         "Amsterdam, Dam",
          "Hilversum, Hotel Gooiland",
          "Arnhem, Markt",
          "Amersfoort, Eemplein"]
