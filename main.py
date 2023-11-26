@@ -29,7 +29,9 @@ data_df = pd.DataFrame(
         datetime(2023,11,26,13,0),
         datetime(2023,11,26,12,0),
         datetime(2023,11,26,14,0),
-        datetime(2023,11,26,15,0)],
+        datetime(2023,11,26,15,0),
+        datetime(2023,11,30,18,0),
+        datetime(2023,12,3,14,0)],
         "Locatie": [
          "Tilburg, Centraal Station",
          "Amsterdam, Centraal Station",
@@ -39,7 +41,9 @@ data_df = pd.DataFrame(
          "Amsterdam, Dam",
          "Hilversum, Hotel Gooiland",
          "Arnhem, Markt",
-         "Amersfoort, Eemplein"]
+         "Amersfoort, Eemplein",
+         "Zwolle, NS Station",
+         "Heerenveen, Geert Willingenplein"]
     }
 )
 st.data_editor(
