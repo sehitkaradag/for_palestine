@@ -21,19 +21,15 @@ st.subheader("Palestina protesten en informatie")
 data_df = pd.DataFrame(
     {   
         "Datum": [
-        datetime(2023,11,26,13,0),
-        datetime(2023,11,26,12,0),
-        datetime(2023,11,26,14,0),
-        datetime(2023,11,26,15,0),
         datetime(2023,11,30,18,0),
-        datetime(2023,12,3,14,0)],
+        datetime(2023,12,3,14,0),
+        datetime(2023,12,7,18,0),
+        datetime(2023,12,21,18,0)],
         "Locatie": [
-         "Amsterdam, Dam",
-         "Hilversum, Hotel Gooiland",
-         "Arnhem, Markt",
-         "Amersfoort, Eemplein",
          "Zwolle, NS Station",
-         "Heerenveen, Geert Willingenplein"]
+         "Heerenveen, Geert Willingenplein",
+         "Centraal station, Decentraal in alle steden",
+         "Centraal station, Decentraal in alle steden"]
     }
 )
 st.data_editor(
