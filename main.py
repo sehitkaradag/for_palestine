@@ -18,34 +18,7 @@ with st.sidebar:
 ######################################
 st.subheader("Palestina protesten en informatie")
 
-data_df = pd.DataFrame(
-    {   
-        "Datum": [
-        datetime(2023,11,30,18,0),
-        datetime(2023,12,3,14,0),
-        datetime(2023,12,7,18,0),
-        datetime(2023,12,21,18,0)],
-        "Locatie": [
-         "Zwolle, NS Station",
-         "Heerenveen, Geert Willingenplein",
-         "Centraal station, Decentraal in alle steden",
-         "Centraal station, Decentraal in alle steden"]
-    }
-)
-st.data_editor(
-    data_df,use_container_width=True,
-    column_config={
-        "Datum": st.column_config.DatetimeColumn(
-            "Datum",
-            min_value = datetime(2023,11,11),
-            max_value = datetime(2024,12,30),
-            format = "D MMM YYYY, h:mm a",
-            step=60,
-        ),
-    },
-    hide_index=True,
-)
-st.caption("Nieuwe demonstraties worden dagelijks toegevoegd")
+st.link_button(":red[Actuele demonstraties]", "https://www.planteenolijfboom.nl/demonstraties")
 
 ######################################
 # Display of tabs. 6 tabs in total with some containing columns
